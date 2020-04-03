@@ -18,6 +18,10 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(num) {
+  if(num > 9) {
+    num = 9
+  }
+  
   var i = 0;
   
   function incrementVariable() {
